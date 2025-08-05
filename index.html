@@ -1,0 +1,132 @@
+<!DOCTYPE html>
+<html lang="ko">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>내 포트폴리오</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            line-height: 1.6;
+            margin: 0;
+            padding: 0;
+            background-color: #f4f4f4;
+            color: #333;
+        }
+        .container {
+            width: 80%;
+            margin: auto;
+            overflow: hidden;
+            padding: 20px;
+        }
+        header {
+            background: #333;
+            color: #fff;
+            padding-top: 30px;
+            min-height: 70px;
+            border-bottom: #77aaff 3px solid;
+            text-align: center;
+        }
+        header h1 {
+            margin: 0;
+            font-size: 2.5em;
+        }
+        header p {
+            font-size: 1.2em;
+            margin-top: 5px;
+        }
+        .profile {
+            text-align: center;
+            padding: 20px 0;
+        }
+        .profile img {
+            width: 150px;
+            height: 150px;
+            border-radius: 50%;
+            object-fit: cover;
+            border: 3px solid #77aaff;
+        }
+        .section {
+            background: #fff;
+            padding: 20px;
+            margin: 20px 0;
+            border-radius: 8px;
+            box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+        }
+        .section h2 {
+            color: #333;
+            border-bottom: 2px solid #ddd;
+            padding-bottom: 10px;
+        }
+        .project-item {
+            margin-bottom: 15px;
+        }
+        .project-item h3 {
+            color: #555;
+            margin: 0 0 5px 0;
+        }
+        .project-item p {
+            margin: 0;
+        }
+        .project-item a {
+            color: #77aaff;
+            text-decoration: none;
+        }
+        .project-item a:hover {
+            text-decoration: underline;
+        }
+        footer {
+            background: #333;
+            color: #fff;
+            text-align: center;
+            padding: 10px 0;
+            margin-top: 20px;
+        }
+    </style>
+</head>
+<body>
+
+    <header>
+        <div class="container">
+            <h1>홍길동</h1>
+            <p>웹 개발자 포트폴리오</p>
+        </div>
+    </header>
+
+    <div class="container">
+        <section class="profile">
+            <img src="https://via.placeholder.com/150" alt="프로필 사진">
+            <h2>안녕하세요! 저는 웹 개발자 홍길동입니다.</h2>
+            <p>HTML, CSS, JavaScript를 주로 사용하며, 사용자에게 즐거운 경험을 제공하는 웹사이트를 만드는 것에 관심이 많습니다.</p>
+        </section>
+
+        <section class="section projects">
+            <h2>프로젝트</h2>
+            <div class="project-item">
+                <h3>프로젝트 1: 개인 블로그</h3>
+                <p>사용 기술: HTML, CSS, JavaScript</p>
+                <p>개인적인 생각과 개발 지식을 공유하기 위해 만든 블로그입니다.</p>
+                <p><a href="#">[프로젝트 링크]</a></p>
+            </div>
+            <div class="project-item">
+                <h3>프로젝트 2: 할 일 관리 앱</h3>
+                <p>사용 기술: HTML, CSS, JavaScript</p>
+                <p>사용자가 할 일을 추가하고 관리할 수 있는 간단한 웹 애플리케이션입니다.</p>
+                <p><a href="#">[프로젝트 링크]</a></p>
+            </div>
+        </section>
+
+        <section class="section contact">
+            <h2>연락처</h2>
+            <p><strong>이메일:</strong> <a href="mailto:gildong.hong@email.com">gildong.hong@email.com</a></p>
+            <p><strong>GitHub:</strong> <a href="https://github.com/gildonghong">github.com/gildonghong</a></p>
+            <p><strong>블로그:</strong> <a href="#">myblog.com</a></p>
+        </section>
+    </div>
+
+    <footer>
+        <p>&copy; 2025 홍길동 포트폴리오. All Rights Reserved.</p>
+    </footer>
+
+</body>
+</html>
